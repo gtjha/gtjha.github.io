@@ -4,6 +4,32 @@
 	<title>moto phone</title>
 </head>
 <body>
+	<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : 'your-app-id',
+      xfbml      : true,
+      version    : 'v2.9'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	<h1>phone</h1>
 	<img src="a.gif" width="1280" height="240" >
 	<p style="color:blue; font-size:160%;"><b>click on image to buy the phone</b></p>
@@ -16,5 +42,6 @@
 	 <p>=>Quad Core Snapdragon CPU, 1GB Ram, 8GB Internal Memory</p>
 	 <p>=>4.7inch Corning Gorilla Glass Display </br></br>=>5MP Main Camera, VGA Front
 USA Imported</br></br> =>Box have Only Flat Pin Charger, No earphones , No Data Cable</p>
+<div class="fb-comments" data-href="https://gtjha.github.io/moto.html" data-numposts="5"></div>
 </body>
 </html>
