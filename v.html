@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Village Shop></title>
+<link rel="stylesheet" type="text/css" href="des.css">
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4CAF50;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a.active {
+    background-color: brown;
+    color: white;
+}
+li a:hover, .dropdown:hover .dropbtn  {
+    background-color: #111;
+}
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#p01 {
+    background-color: powderblue;
+}
+</style>
+</head>
+<body>
+    <img src="logo.png" width="80" height="80">
+	<h1 style="color:Brown;" align="left">village shop</h1>
+    <ul>
+  <li><a class="active" href="#home">home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">phone</a>
+    <div class="dropdown-content">
+      <a href="moto.html">moto</a>
+      <a href="#">samsung</a>
+      <a href="#">nokia</a>
+    </div>
+</li>
+<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">book</a>
+    <div class="dropdown-content">
+      <a href="compiler.html">compiler</a>
+      <a href="#">java</a>
+      <a href="#">c++</a>
+    </div>
+</li>
+<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">cloth</a>
+    <div class="dropdown-content">
+      <a href="puma.html">puma</a>
+      <a href="#">nike</a>
+      <a href="#">levi's</a>
+    </div>
+</li>
+<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">leptop</a>
+    <div class="dropdown-content">
+      <a href="#">Dell</a>
+      <a href="#">macbook</a>
+      <a href="#">hp</a>
+    </div>
+</li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+    <p><a href="#C1">Jump to phone</a></p>
+    <p><a href="#C2">Jump to book</a></p>
+    <p><a href="#C3">jump to cloths</a></p>
+</body>
+<hr />
+<body id="p01">
+	<center>
+	<h2 style="color:red; font-size:225%;" id="C1">Phone</h2>
+</center>
+    <p style="color:blue; font-size:160%;"><b>Brand</b></p>
+    <div class="gallery">
+  <a target="_blank" href="moto.html">
+    <img src="p.jpeg" alt="Trolltunga Norway" width="104" height="142">
+  </a>
+  <div class="desc">motorola</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="moto.html">
+    <img src="Samsung.jpg" alt="Trolltunga Norway" width="104" height="142">
+  </a>
+  <div class="desc">samsung</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="moto.html">
+    <img src="nokia.jpg" alt="Trolltunga Norway" width="104" height="142">
+  </a>
+  <div class="desc">nokia</div>
+</div>
+    
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+<hr />
+	<center>
+	<h2 style="color:green; font-size:225%;" id="C2">Book</h2>
+</center>
+    <p style="color:blue; font-size:160%;"><b>Brand</b></p>
+    
+    <div class="gallery">
+  <a target="_blank" href="compiler.html">
+    <img src="b.jpeg" alt="Trolltunga Norway" width="104" height="142">
+  </a>
+  <div class="desc">compiler</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="compiler.html">
+    <img src="java.jpg" alt="Trolltunga Norway" width="104" height="142">
+  </a>
+  <div class="desc">java</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="compiler.html">
+    <img src="cpp.jpg" alt="Trolltunga Norway" width="104" height="142">
+  </a>
+  <div class="desc">c++</div>
+</div>
+    
+    </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br> 
+    <hr /> 
+	<center>
+	<h2 style="color:brown; font-size:225%;" id="C3">cloths</h2>
+</center>
+    <p style="color:blue; font-size:160%;"><b>Brand</b></p>
+    <a href="puma.html">
+  <img src="c.jpg" width="104" height="142">
+</a>
+    <p style="color:green;">puma</p>
+    <hr />
+</body>
+</html>
